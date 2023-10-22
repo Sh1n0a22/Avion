@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.h-header{height: 132px;}
+.nav{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 44px;
+
+}
+
+
+.header{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:4fr 48px;
+    justify-items:center;
+    align-items: center;
+}
+

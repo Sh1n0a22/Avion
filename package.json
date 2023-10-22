@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "create-vite": "^4.4.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./Template01/src/input.css -o ./Template01/build/css/style.css --watch"
+  }
+}
